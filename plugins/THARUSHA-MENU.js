@@ -74,7 +74,6 @@ cmd({
                 renderLargerThumbnail: false
             }
         }
-    }
                     },
                     { quoted: mek }
                 );
