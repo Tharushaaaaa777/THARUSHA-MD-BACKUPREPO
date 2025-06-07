@@ -46,7 +46,7 @@ cmd({
 *${pakaya}「 👥 」「 ᴊᴏɪɴ ᴜꜱ 」 :${pakaya}* https://chat.whatsapp.com/IuCk1MbqhgO6OMklCR464s
 
 
-*${pakaya}♯ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰  〽️Ｄ*${pakaya}`;
+*${pakaya}♯ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰 〽️Ｄ${pakaya}*`;
 
         // Context info
         /*const contextInfo = {
