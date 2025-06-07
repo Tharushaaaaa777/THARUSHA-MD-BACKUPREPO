@@ -2,6 +2,7 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 const { runtime } = require('../lib/functions');
 const axios = require('axios');
+const pakaya = "`"
 
 cmd({
     pattern: "menu",
@@ -18,15 +19,15 @@ cmd({
         const menuCaption = `👋 *🅷🅴🅻🅻🅾 ${pushname} 𝘸𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 ᴛʜᴀʀᴜꜱʜᴀ-ᴍᴅ 😗*
 
 *┏━━━━━━━━━━━━━━━━━━━━━┓*
-*┃ 👾 ʙᴏᴛ : ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ* 
-*┃ 👤 ᴏᴡɴᴇʀ : ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ* 
-*┃ 🔰 ᴍᴏᴅᴇ : ${config.MODE}* 
-*┃ 👤 ᴠᴇʀᴛɪᴏɴ : 1.0.0 ʙᴇᴛᴀ*
+*┃ 👾 ${pakaya}ʙᴏᴛ :${pakaya} ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ* 
+*┃ 👤 ${pakaya}ᴏᴡɴᴇʀ :${pakaya} ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ* 
+*┃ 🔰 ${pakaya}ᴍᴏᴅᴇ :${pakaya} ${config.MODE}* 
+*┃ 👤 ${pakaya}ᴠᴇʀᴛɪᴏɴ :${pakaya} 1.0.0 ʙᴇᴛᴀ*
 *┗━━━━━━━━━━━━━━━━━━━━━┛*
 
-*🔢 ʀᴇᴘʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀ ʙᴇʟᴏᴡ,*
+*🔢 ${pakaya}ʀᴇᴘʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀ ʙᴇʟᴏᴡ,${pakaya}*
 
-*╭─「 ᴍᴇɴᴜ ᴘᴀᴛᴛᴇʀɴꜱ 」*
+*╭─「 ${pakaya}ᴍᴇɴᴜ ᴘᴀᴛᴛᴇʀɴꜱ${pakaya} 」*
 *│► 1 ➽  ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ*
 *│► 2 ➽ ɢʀᴏᴜᴘ ᴍᴇɴᴜ* 
 *│► 3 ➽ ꜰᴜɴ ᴍᴇɴᴜ*
@@ -40,7 +41,7 @@ cmd({
 *│► 11 ➽ ꜱᴇᴛᴛɪɴɢ ᴍᴇɴᴜ*
 *╰──────────●●►*
 
-*「 🍄 」「 ꜰᴏʟʟᴏᴡ ᴜꜱ 」 :* https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45
+*${pakaya}「 🍄 」「 ꜰᴏʟʟᴏᴡ ᴜꜱ 」 :${pakaya}* https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45
 
 > *♡ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰  〽️Ｄ*`;
 
@@ -60,15 +61,15 @@ cmd({
                         image: { url: config.MENU_IMAGE_URL },
                         caption: menuCaption,
                         contextInfo: {
-        externalAdReply: {
-            title: "𝗧𝗛𝗔𝗥𝗨𝗦𝗛𝗔 𝗠𝗗",
-            body: "ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ ᴏꜰᴄ . 👤",
-            mediaType: 1,
-            thumbnailUrl: 'https://i.ibb.co/qFktFhXP/1821.jpg',
-            sourceUrl: 'https://whatsapp.com/channel/0029Vb4eZqo3bbV0lTGjFn2S',
-            mediaUrl: 'https://whatsapp.com/channel/0029Vb4eZqo3bbV0lTGjFn2S',
-            showAdAttribution: true,
-            renderLargerThumbnail: true
+            forwardingScore: 0,
+            isForwarded: false,
+            externalAdReply: {
+                title: `𝐓𝐇𝐀𝐑𝐔𝐒𝐇𝐀-𝐌𝐃`,
+                body: `ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ 👨‍💻`,
+                thumbnailUrl: `https://i.ibb.co/x8q6HFr1/9862.jpg`,  // Your logo URL
+                mediaType: 1,
+                renderLargerThumbnail: false
+            }
         }
     }
                     },
