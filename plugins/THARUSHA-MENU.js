@@ -43,7 +43,10 @@ cmd({
 
 *${pakaya}「 🍄 」「 ꜰᴏʟʟᴏᴡ ᴜꜱ 」 :${pakaya}* https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45
 
-> *♡ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰  〽️Ｄ*`;
+*${pakaya}「 👥 」「 ᴊᴏɪɴ ᴜꜱ 」 :${pakaya}* https://chat.whatsapp.com/IuCk1MbqhgO6OMklCR464s
+
+
+*${pakaya}♯ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰  〽️Ｄ*${pakaya}`;
 
         // Context info
         /*const contextInfo = {
@@ -66,7 +69,7 @@ cmd({
             externalAdReply: {
                 title: `𝐓𝐇𝐀𝐑𝐔𝐒𝐇𝐀-𝐌𝐃`,
                 body: `ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ 👨‍💻`,
-                thumbnailUrl: `https://i.ibb.co/x8q6HFr1/9862.jpg`,  // Your logo URL
+                thumbnailUrl: config.MENU_IMAGE_URL,  // Your logo URL
                 mediaType: 1,
                 renderLargerThumbnail: false
             }
